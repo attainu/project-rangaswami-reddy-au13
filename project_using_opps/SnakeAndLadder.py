@@ -5,7 +5,7 @@ class SnakeAndLadder:
     def __init__(self):
         pass
 
-    def ladders(self, x):                   # snake's score
+    def ladders(self, x):          # snake's score
         if x == 2:
             return 25
         elif x == 7:
