@@ -27,7 +27,7 @@ use multiple concepts in your program.
 ## Requirements
 
 ```
-● Use of Random function
+● Use of Random function, sys function
 ● Conditional Statements
 ```
 

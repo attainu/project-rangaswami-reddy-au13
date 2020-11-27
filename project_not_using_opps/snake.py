@@ -1,5 +1,5 @@
 from random import randint
-
+import sys
 
 def ladders(x):          # snake's score
     if x == 2:
@@ -67,7 +67,7 @@ def turn(player, score):                  # Turn function
             print()
             print("#" * 15, player, "won the game!", "#" * 15)
             print("#" * 20, "congratulations", player, "#" * 20)
-
+            sys.exit(1)
         return score
 
 
@@ -138,4 +138,3 @@ Rules:
                 break
         elif play == "exit" or play == "Exit":
             break
-            quit
